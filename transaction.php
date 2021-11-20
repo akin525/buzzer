@@ -121,7 +121,7 @@ curl_setopt_array($curl, array(
     CURLOPT_SSL_VERIFYPEER => 0,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => array(
-        "Authorization: Bearer sk_live_f1287e078d04cc1049db9bbb46ea9395db795a9c",
+        "Authorization: Bearer sk_test_280c68e08f76233b476038f04d92896b4749eec3",
         "Cache-Control: no-cache",
     ),
 ));
@@ -151,7 +151,7 @@ while($row = mysqli_fetch_array($result))
     $name="$row[name]";
 }
 
-$query="SELECT * FROM  wallet WHERE username='$username'";
+$query="SELECT * FROM  wallet WHERE username='$depositor'";
 $result = mysqli_query($con,$query);
 while($row = mysqli_fetch_array($result))
 {

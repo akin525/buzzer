@@ -290,7 +290,7 @@ elseif ($product_type=="nepa") {
     $curl = curl_init();
 
     curl_setopt_array($curl, array(
-        CURLOPT_URL => $resellerURL.'pay',
+        CURLOPT_URL =>'https://test.mcd.5starcompany.com.ng/api/reseller/pay',
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => '',
         CURLOPT_MAXREDIRS => 10,
@@ -317,18 +317,30 @@ elseif ($product_type=="nepa") {
     $tran1=$data["discountAmount"];
     $tran2=$data["token"];
     if($success==1) {
-        $query = mysqli_query($con, "insert into bill_payment (product, username, amount, transactionid, paymentmethod,status, server_response, discountamount, token) values ('$title', '$payer', '$topay', '$net', 'Wallet Payment', '$success', '$response', '$tran1', '$tran2')");
-        echo "<script language='javascript'> 
-let message = '$m';
-                                    alert(message);
-window.location='myinvoice.php';</script>";
+        $query = mysqli_query($con, "insert into bill_payment (`username`, `product`, `amount`, `transactionid`, `paymentmethod`, `server_response`, `number`, `token`, `discountamoun`) values ('$payer', '$title', '$topay', '$net', 'Wallet Payment',  '$response', '$phone', '$tran2', '$tran1')");
+        echo "<body>
+      <div class='card'>
+      <div style='border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;'>
+        <i class='checkmark'>✓</i>
+      </div>
+        <h1>Success</h1> 
+        <p>$title Was Successful Purchase To $phone<br/> Thanks $tran2</p>
+        <a href='myinvoice.php'><button type='button' class='btn btn-outline-success'>Continue</button></a>
+      </div>
+    </body>";
     }
     if($success==0){
-        $query=mysqli_query($con,"update wallet set balance=balance+$topay where username='" . $_SESSION['username'] . "'");
-        echo "<script language='javascript'>
-  let message = '$topay Refunded';
-                                    alert(message);
- window.location='mcderror.php';</script>";
+        $query=mysqli_query($con,"update wallet set balance=balance+$topay where username='$payer'");
+        echo "<body>
+      <div class='card'>
+      <div style='border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;'>
+        <f class='checkmark'>x</f>
+      </div>
+        <h2>Fail</h2> 
+        <p class='text-danger-100'>Electricity Purchase Fail NGN$topay was Refunded<br/>Contact Admin Support</p>
+        <a href='dashboard.php'><button type='button' class='btn btn-outline-danger'>Continue</button></a>
+      </div>
+    </body>";
     }
 }
 
