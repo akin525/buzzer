@@ -100,11 +100,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             <div class="login_section">
                 <div class="logo_login">
                     <div class="center">
-                        <img width="210" src="images/logo/logo.png" alt="#" />
+                        <img width="110" src="images/logo/logo_icon.png" alt="#" />
                     </div>
                 </div>
 
                 <div class="login_form">
+                    <h3 class="text-center text-success">THEBUZZER LOG-IN</h3>
+                    <br>
+                    <br>
 
                     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"], ENT_QUOTES, "utf-8"); ?>" method="post">
                         <?php
@@ -127,11 +130,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <label class="label_field hidden">hidden label</label>
                                 <label class="form-check-label"><input type="checkbox" id="rememberMe" class="form-check-input"> Remember Me</label>
                                 <a class="forgot" href="">Forgotten Password?</a>
-                                <a href="Signup.php"><button type="button" class="btn btn-send w3-round-large">Sign-Up</button></a>
+                                <button type="submit" class="btn btn-send w3-round-large">Sign-in</button>
                             </div>
                             <div class="field margin_0">
                                 <label class="label_field hidden">hidden label</label>
-                                <button class="main_bt">Sing In</button>
+                                <a href="Signup.php" ><button class="main_bt">Sign Up</button></a>
                             </div>
                         </fieldset>
                     </form>

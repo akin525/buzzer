@@ -198,17 +198,20 @@ window.location = 'login.php';
     <![endif]-->
 </head>
 <body class="inner_page login">
+<br>
+<br>
 <div class="full_container">
     <div class="container">
         <div class="center verticle_center full_height">
             <div class="login_section">
                 <div class="logo_login">
                     <div class="center">
-                        <img width="210" src="images/logo/logo.png" alt="#" />
+                        <img width="110" src="images/logo/logo_icon.png" alt="#" />
                     </div>
                 </div>
 
                 <div class="login_form">
+                    <h3 class="text-center text-success">THEBUZZER SIGN-UP</h3>
 
                     <form method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"], ENT_QUOTES, "utf-8"); ?>" method="post">
 

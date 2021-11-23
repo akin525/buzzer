@@ -629,7 +629,7 @@ curl_setopt_array($curl, array(
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => array(
         "Content-Type: application/json",
-        "Authorization: Bearer FLWSECK-7b5ac6eba89bb2ed0eead5e6497ebc06-X",
+        "Authorization: Bearer FLWSECK_TEST-8b2bbd735aae41fdf8ed704b5949c07b-X",
     ),
 ));
 //curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
@@ -653,7 +653,7 @@ while ($row = mysqli_fetch_array($result)) {
     $name="$row[name]";
 }
 
-$query="SELECT * FROM  wallet WHERE username='$username'";
+$query="SELECT * FROM  wallet WHERE username='$depositor'";
 $result = mysqli_query($con,$query);
 while ($row = mysqli_fetch_array($result)) {
     $ubalance=$row["balance"];
@@ -667,7 +667,7 @@ $fwallet=$ubalance+$amount;
 
 $query=mysqli_query($con,"insert into deposit (status, username, amount, payment_ref,  iwallet, fwallet, date) values (1,'$depositor', '$amount', '$refid', '$ubalance', '$fwallet', CURRENT_TIMESTAMP)");
 $result=mysqli_query($con,"update wallet set balance=balance+$amount WHERE username='$depositor'");
-$query="SELECT * FROM deposit where username = '$username'";
+$query="SELECT * FROM deposit where username = '$depositor'";
 $result = mysqli_query($con,$query);
 while ($row = mysqli_fetch_array($result)) {
     $depositor=$row["amount"];

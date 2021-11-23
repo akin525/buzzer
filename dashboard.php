@@ -75,7 +75,7 @@
             <div class="card-body">
                 <h6 class="text-white font-weight-bold">Your Referral Link</h6>
                 <!-- The text field -->
-                <input class="text-success form-control"  id="myInput" value=https://efemobilemoney.com/go/register.php?refer=<?php echo $username; ?> readonly/>
+                <input class="text-success form-control"  id="myInput" value=https://mobile.thebuzzer.com.ng/go/register.php?refer=<?php echo $username; ?> readonly/>
                 <!-- The button used to copy the text -->
                 <button onclick="myFunction()" class="btn badge-success">Copy Referral Link</button>
             </div>

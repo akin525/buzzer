@@ -252,7 +252,7 @@
         function makePayment()
         {
             FlutterwaveCheckout({
-                public_key: "FLWPUBK-52255ca20b7486c7bd0fa2ce0d0fba5b-X ",
+                public_key: "FLWPUBK_TEST-32b42fe99e105f6350c37d57a62374c0-X ",
                 tx_ref:''+Math.floor((Math.random() * 1000000000) + 1),
                 amount: document.getElementById("amount").value*1,
                 currency: "NGN",
