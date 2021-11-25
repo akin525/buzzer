@@ -739,7 +739,7 @@ $body .= "<body style='width:100%;font-family:arial, 'helvetica neue', helvetica
                   <td class='es-m-p0r' valign='top' align='center' style='padding:0;Margin:0;width:560px'>
                    <table cellpadding='0' cellspacing='0' width='100%' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'>
                      <tr>
-                      <td align='center' style='padding:0;Margin:0;padding-bottom:10px;font-size:0px'><img src='https://efemobilemoney.com/go/assets/images/logo2.png' alt='Logo' style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;font-size:12px' width='200' title='Logo'></td>
+                      <td align='center' style='padding:0;Margin:0;padding-bottom:10px;font-size:0px'><img src='https://lgftzw.stripocdn.email/content/guids/CABINET_6236481c7d26a46b42fba226fc9e554f/images/croppedwhatsappimage20211020at94609pm.jpeg' alt='Logo' style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;font-size:12px' width='200' title='Logo'></td>
                      </tr>
                    </table></td>
                  </tr>
@@ -759,7 +759,7 @@ $body .= " <table cellpadding='0' cellspacing='0' class='es-content' align='cent
                   <td align='center' valign='top' style='padding:0;Margin:0;width:560px'>
                    <table cellpadding='0' cellspacing='0' width='100%' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'>
                      <tr>
-                      <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px'><img src='https://lgftzw.stripocdn.email/content/guids/CABINET_c0e87147643dfd412738cb6184109942/images/151618429860259.png' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='100'></td>
+                      <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px'><img src='https://lgftzw.stripocdn.email/content/guids/CABINET_6236481c7d26a46b42fba226fc9e554f/images/croppedwhatsappimage20211020at94609pm.jpeg' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='100'></td>
                      </tr>
                      <tr>
                       <td align='center' style='padding:0;Margin:0;padding-bottom:10px'><h1 style='Margin:0;line-height:46px;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;font-size:46px;font-style:normal;font-weight:bold;color:#333333'>Wallet Funded</h1></td>

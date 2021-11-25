@@ -1,6 +1,6 @@
 
 <?php
-include_once ("database.php");
+include ("database.php");
 if (isset($_SESSION['email'])) {
 
     print "
@@ -59,6 +59,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4783566552108386"
+            crossorigin="anonymous"></script>
     <!-- basic -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -134,7 +136,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                             </div>
                             <div class="field margin_0">
                                 <label class="label_field hidden">hidden label</label>
-                                <a href="Signup.php" ><button class="main_bt">Sign Up</button></a>
+                                <a href="Signup.php" ><button type="button" class="main_bt">Sign Up</button></a>
                             </div>
                         </fieldset>
                     </form>

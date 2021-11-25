@@ -42,7 +42,7 @@
 
             $id=mysqli_real_escape_string($con,$_POST['id']);
 
-            $query="SELECT * FROM  bill_payment where  id = '$id'";
+            $query="SELECT * FROM  bill_payment where  id = '$id' order by date desc ";
             $result = mysqli_query($con,$query);
 
             while($row = mysqli_fetch_array($result))

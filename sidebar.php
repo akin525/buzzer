@@ -104,6 +104,8 @@ while($row = mysqli_fetch_array($result))
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4783566552108386"
+            crossorigin="anonymous"></script>
 </head>
 <body class="dashboard dashboard_1">
 <div class="full_container">
@@ -125,7 +127,10 @@ while($row = mysqli_fetch_array($result))
                             <p><span class="online_animation"></span> Online</p>
                         </div>
                     </div>
+                    <a href="logout.php"><button type="button" class="btn btn-primary">logout</button></a>
+
                 </div>
+
             </div>
             <div class="sidebar_blog_2">
                 <h4>General</h4>
@@ -152,9 +157,9 @@ while($row = mysqli_fetch_array($result))
                     <li>
                         <a href="myinvoice.php"><i class="fa fa-sticky-note yellow_color"></i> <span>Bills Invoice</span></a>
                     </li>
-                    <li><a href="map.html"><i class="fa fa-map purple_color2"></i> <span>Map</span></a></li>
-                    <li><a href="charts.html"><i class="fa fa-bar-chart-o green_color"></i> <span>Charts</span></a></li>
-                    <li><a href="settings.html"><i class="fa fa-cog yellow_color"></i> <span>Settings</span></a></li>
+<!--                    <li><a href="map.html"><i class="fa fa-map purple_color2"></i> <span>Map</span></a></li>-->
+<!--                    <li><a href="charts.html"><i class="fa fa-bar-chart-o green_color"></i> <span>Charts</span></a></li>-->
+                    <li><a href="edit.php"><i class="fa fa-cog yellow_color"></i> <span>Settings</span></a></li>
                 </ul>
             </div>
         </nav>
@@ -181,8 +186,8 @@ while($row = mysqli_fetch_array($result))
                                         <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="images/layout_img/user_img.jpg" alt="#" /><span class="name_user"><?php echo $name; ?></span></a>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="profile.php">My Profile</a>
-                                            <a class="dropdown-item" href="settings.html">Settings</a>
-                                            <a class="dropdown-item" href="help.html">Help</a>
+                                            <a class="dropdown-item" href="profile.php">Settings</a>
+<!--                                            <a class="dropdown-item" href="help.html">Help</a>-->
                                             <a class="dropdown-item" href="logout.php"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
                                         </div>
                                     </li>

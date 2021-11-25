@@ -272,7 +272,7 @@ if($numrows==1) {
         <td>
             <div class="contact-info">
 
-                <form action="select.php" method="post">
+                <form action="billpayment.php" method="post">
                     <input type="hidden" name="amount" value="<?php  print $amount; ?>">
                     <input type="hidden" name="product" value="<?php  print $product; ?>">
                     <input type="hidden" name="productid" value="<?php  print $productid; ?>">

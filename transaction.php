@@ -189,7 +189,7 @@ $headers .= "Reply-To: ". $from . "\r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-$subject = "From Efemobilemoney.";
+$subject = "From Thebuzzer.";
 
 $logo = '<img src="images/logo.png" alt="logo">';
 $link = '#';
@@ -198,7 +198,7 @@ $body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Expre
 $body .= "<table style='width: 100%;'>";
 $body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
 $body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
-$body .= "<body style='width:100%;font-family:arial, 'helvetica neue', helvetica, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0'> 
+$body .= "<body style='width:100%;font-family:arial, helvetica neue, helvetica, sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;padding:0;Margin:0'> 
   <div class='es-wrapper-color' style='background-color:#FAFAFA'> 
    <!--[if gte mso 9]>
 			<v:background xmlns:v='urn:schemas-microsoft-com:vml' fill='t'>
@@ -219,7 +219,7 @@ $body .= "<body style='width:100%;font-family:arial, 'helvetica neue', helvetica
                   <td align='center' valign='top' style='padding:0;Margin:0;width:560px'> 
                    <table cellpadding='0' cellspacing='0' width='100%' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'> 
                      <tr> 
-                      <td align='center' class='es-infoblock' style='padding:0;Margin:0;line-height:14px;font-size:12px;color:#CCCCCC'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, 'helvetica neue', helvetica, sans-serif;line-height:14px;color:#CCCCCC;font-size:12px'><a target='_blank' href='' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px'>View online version</a></p></td> 
+                      <td align='center' class='es-infoblock' style='padding:0;Margin:0;line-height:14px;font-size:12px;color:#CCCCCC'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:14px;color:#CCCCCC;font-size:12px'><a target='_blank' href='' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#CCCCCC;font-size:12px'>View online version</a></p></td> 
                      </tr> 
                    </table></td> 
                  </tr> 
@@ -239,7 +239,7 @@ $body .= "<body style='width:100%;font-family:arial, 'helvetica neue', helvetica
                   <td class='es-m-p0r' valign='top' align='center' style='padding:0;Margin:0;width:560px'> 
                    <table cellpadding='0' cellspacing='0' width='100%' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'> 
                      <tr> 
-                      <td align='center' style='padding:0;Margin:0;padding-bottom:10px;font-size:0px'><img src='https://efemobilemoney.com/go/assets/images/logo2.png' alt='Logo' style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;font-size:12px' width='200' title='Logo'></td> 
+                      <td align='center' style='padding:0;Margin:0;padding-bottom:10px;font-size:0px'><img src='https://lgftzw.stripocdn.email/content/guids/CABINET_6236481c7d26a46b42fba226fc9e554f/images/croppedwhatsappimage20211020at94609pm.jpeg' alt='Logo' style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic;font-size:12px' width='200' title='Logo'></td> 
                      </tr> 
                    </table></td> 
                  </tr> 
@@ -259,7 +259,7 @@ $body .= " <table cellpadding='0' cellspacing='0' class='es-content' align='cent
                   <td align='center' valign='top' style='padding:0;Margin:0;width:560px'> 
                    <table cellpadding='0' cellspacing='0' width='100%' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'> 
                      <tr> 
-                      <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px'><img src='https://lgftzw.stripocdn.email/content/guids/CABINET_c0e87147643dfd412738cb6184109942/images/151618429860259.png' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='100'></td> 
+                      <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px;font-size:0px'><img src='https://lgftzw.stripocdn.email/content/guids/CABINET_6236481c7d26a46b42fba226fc9e554f/images/croppedwhatsappimage20211020at94609pm.jpeg' alt style='display:block;border:0;outline:none;text-decoration:none;-ms-interpolation-mode:bicubic' width='100'></td> 
                      </tr> 
                      <tr> 
                       <td align='center' style='padding:0;Margin:0;padding-bottom:10px'><h1 style='Margin:0;line-height:46px;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;font-size:46px;font-style:normal;font-weight:bold;color:#333333'>Wallet Funded</h1></td> 
@@ -311,7 +311,7 @@ $body .= "<tr>
                   <td align='left' style='padding:0;Margin:0;width:560px'> 
                    <table cellpadding='0' cellspacing='0' width='100%' role='presentation' style='mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px'> 
                      <tr> 
-                      <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:21px;color:#333333;font-size:14px'>Got a question?&nbsp;Email us at info@efemobilemoney.com.ng&nbsp;or give us a call at <a target='_blank' href='' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px'>0816 693 9205</a>.</p></td> 
+                      <td align='center' style='padding:0;Margin:0;padding-top:10px;padding-bottom:10px'><p style='Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:arial, helvetica neue, helvetica, sans-serif;line-height:21px;color:#333333;font-size:14px'>Got a question?&nbsp;Email us at info@thebuzzer.com.ng&nbsp;or give us a call at <a target='_blank' href='' style='-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;text-decoration:underline;color:#5C68E2;font-size:14px'>08146328645</a>.</p></td> 
                      </tr> 
                    </table></td> 
                  </tr> 
